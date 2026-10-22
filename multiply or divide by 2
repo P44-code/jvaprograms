@@ -1,0 +1,13 @@
+public class SimpleShift {
+    public static void main(String[] args) {
+        int number = 10;
+
+        // << 1 shifts bits to the left, which multiplies the number by 2
+        int multiplyByTwo = number << 1; 
+        System.out.println("10 multiplied by 2 is: " + multiplyByTwo); // 20
+
+        // >> 1 shifts bits to the right, which divides the number by 2
+        int divideByTwo = number >> 1;   
+        System.out.println("10 divided by 2 is: " + divideByTwo);     // 5
+    }
+}
