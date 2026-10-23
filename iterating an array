@@ -1,0 +1,17 @@
+public class ArrayExample {
+    public static void main(String[] args) {
+        // 1. Declare and initialize an array of integers
+        int[] numbers = {10, 20, 30, 40, 50};
+
+        // 2. Access elements using their index (indexing starts at 0)
+        System.out.println("First element: " + numbers[0]);
+        System.out.println("Third element: " + numbers[2]);
+        
+        System.out.println("\nIterating through the array:");
+        
+        // 3. Loop through the array using an enhanced for-loop (for-each)
+        for (int number : numbers) {
+            System.out.println(number);
+        }
+    }
+}
