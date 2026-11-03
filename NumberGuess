@@ -1,0 +1,16 @@
+public class GuessingGame {
+    public static void main(String[] args) {
+        int secretNumber = 7;
+        int playerGuess = 5; // Change this number to test different outcomes
+
+        System.out.println("Welcome to the Guessing Game!");
+
+        if (playerGuess == secretNumber) {
+            System.out.println("Congratulations! You guessed the right number.");
+        } else if (playerGuess < secretNumber) {
+            System.out.println("Too low! Try a higher number next time.");
+        } else {
+            System.out.println("Too high! Try a lower number next time.");
+        }
+    }
+}
